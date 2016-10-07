@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Pet Friend Comparisons</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="glyphicons-halflings-regular.ttf" rel="stylesheet"> 
+  <link href="glyphicons-halflings-regular.woff" rel="stylesheet"> 
+  <link href="glyphicons-halflings-regular.woff2" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="hed">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <header>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://uspescu.github.io/Main_project">My Pet Friend</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="main-butt">
+      <ul class="nav navbar-nav">
+        <li><a href="https://uspescu.github.io/Main_project">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Why MyPetFriend? <span class="caret"></span></a>
+          
+          <ul class="dropdown-menu">
+            <li><a href="https://uspescu.github.io/Pet_Comparisons">Pet Insurance Comparisons</a></li>
+            <li><a href="https://uspescu.github.io/Pet_Senior">Senior Pet Care</a></li>
+            <li><a href="https://uspescu.github.io/Pet_Resorce">Pet Resorce Center</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Our Plans</a></li>
+      </ul>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-user"></span> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></a></li>
+        
+<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+ 
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                 
+                                or with MyPetFriend email account
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                      <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+      
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<div class="cont">
+      <label><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="uname" required>
+      <label><b>Second Name</b></label>
+      <input type="text" placeholder="Enter Second Name" name="uname" required>
+      <label><b>Your Pet Name</b></label>
+      <input type="text" placeholder="Enter Pet Name" name="uname" required>
+      <label><b>Email Adress</b></label>
+      <input type="text" placeholder="Enter Pet Name" name="uname" required>
+      
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Sign Up</button>
+    </div>
+
+    <div class="cont" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>      
+      
+      <div class="comparisons">
+  <div class="container">
+    <h1> Senior Pet Care </h1>
+    <p> At PetFirst, we want to care for your pets from puppyhood throughout all nine of their lives. </p>
+    <br /> <br />
+    <p> Unlike some of our competitors, we don't have an upper age restriction for enrollment. We allow dogs and cats ages 8 weeks and older to enroll in our pet insurance plans, making it easier to afford veterinary care for the long haul. Though your premiums may increase as your dog or cat gets older, your pet's coverage will remain the same and never will be reduced or limited due to age. </p>
+    <br /> <br />
+    <h2> Behavior Changes In Older Dogs and Cats </h2>
+    <p> Sometimes the first sign of medical trouble is behavior changes. Detecting these changes can be critical in early diagnosis and treatment. According to the American Veterinary Medical Association (AVMA), if you're caring for senior dogs or cats and your pet is showing any of the signs below, it may be an indicator that something else is wrong: </p>
+    <ul>
+      <li>Increased reaction to sounds
+</li>
+      <li>Increased vocalization</li>
+<li>Shortest waiting periods in the industry</li>
+<li>Confusion</li>
+<li>Disorientation</li>
+<li>Decreased interaction with humans</li>
+<li>Increased irritability</li>
+<li>Decreased response to commands </li>
+    </ul>
+    <br />
+    <h2> Cancer in Older Dogs and Cats </h2>
+    <p> Cancer is responsible for nearly 50% of deaths of pets older than 10 years of age. So, as your dog or cat gets older, their rate of cancer increases as well. Our plans cover cancer treatments, as well as the diagnostic tests like x-rays, blood tests and biopsies (as long as the cancer isn't showing symptoms or diagnosed prior to the effective date of the policy). Cancer can be expensive, and catching it early can help decrease your treatment costs. </p>
+    <br />
+    <h2>Top 10 Common Signs of Cancer in Pets </h2>
+    <ol>
+    <li> Abnormal swelling that persists or continues to grow
+ </li>
+<li>Sores that do not heal</li>
+<li>Weight loss</li>
+<li>Loss of appetite
+</li>
+<li>Offensive mouth odo</li>
+<li>Difficulty eating or swallowing</li>
+<li>Hesitation to exercise or loss of stamina</li>
+      </ul>
+  </div>
+      </div>
+      
+      
+      
+    
+    <div class="footer-pic">
+      <div class="container">
+        <div class="footer-text">
+          <p> Get a free quote to cover your four-legged family.</p>
+          <ul>
+            <li class="half">
+            <input id="petName" name="petName" type="text" placeholder="Your Pet's Name">
+            </li>
+            <li> 
+              <button type="submit">GO ! </button>
+            </li>
+          </ul>
+        </div>
+    
+        <img src="https://s22.postimg.org/otnyzmjwh/oie_transparent.png" width="350px" height:"250px">
+      </div>
+      </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-skype"></i></a>
+        </div><!--End container-->
+    </footer><!--End footer 2-->
+            <script src="index.js"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,552 @@
+body{
+  background: url(https://s10.postimg.org/tiit1oul5/laba_trista_albastra.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.hed{
+  height: 100%;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+    
+}
+header{
+  width: 100%;
+  text-align: left;
+  line-height: 48px;
+  height: 108px;
+  background: #335C7D;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.cont{
+  width: 80%;
+  margin-left: 90px;
+  padding: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  border-radius: 10px;
+    background-color: #0D304C;
+    color: white !important;
+  padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+.navbar-nav > li > .dropdown-menu { background-color: #0D304C; }
+
+.main-butt a{
+  color: white !important;
+  font-size: 25px;
+  
+}
+
+.main-butt a:hover{
+  color: #0D304C !important;
+  border: 1px solid white;
+  background: white !important;
+  bottom: 5px;
+  transition: 0.4s;
+}
+
+.navbar-right li:nth-child(1){
+  top: 1px;
+  font-size: 22px;
+}
+
+.navbar-right li:nth-child(2){
+  top: 9px;
+  font-size: 22px;
+}
+
+
+.navbar-nav{
+  margin-top: 10px !important;
+}
+
+.navbar-right{
+  position: relative;
+  bottom: 10px;
+}
+.active:hover{
+  background: none !important;
+}
+
+.navbar{
+  height: 1px;
+  
+}
+.container-fluid .navbar-brand{
+  font-size: 28px !important;
+  border: 1px solid #335C7D;
+  color: #335C7D !important;
+  background: white !important;
+  border-radius: 17px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  margin-right: 20px;
+}
+.container-fluid .navbar-brand:hover{
+  color: white !important;
+  background: #335C7D !important;
+  border: 1px solid white;
+  
+}
+
+
+
+header.sticky {
+  line-height: 48px;
+  height: 48px;
+  background: #0d304c;
+  text-align: left;
+  padding-left: 30px;
+  height: 60px;
+  
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.title{
+  float:left;
+}
+
+.comparisons{
+  margin-top: 200px;
+  font-family: 'Baloo Bhaina', cursive;
+  
+}
+
+.comparisons h1{
+  font-size: 45px;
+  color: #335C7D;
+}
+
+.comparisons h2{
+  color: #335C7D;
+  font-size: 30px;
+}
+
+.comparisons ul{
+  font-size: 25px;
+}
+
+.comparisons p{
+  font-size: 22px;
+}
+
+.comparisons ol{
+  font-size: 25px;
+}
+
+
+
+.footer-text{
+  left: 25%;
+  font-size: 24px;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-bottom: -240px;
+  margin-top: -150px;
+  
+}
+
+.footer-text button{
+  border-radius: 5px;
+  background: #0D304C;
+  color: white;
+  border: 1px solid white;
+  width: 39%;
+  margin-left: 150px;
+}
+
+.half input{
+  width: 40% !important;
+  margin-left: 145px;
+}
+
+.footer-text ul li{
+  list-style-type: none;
+  display: inline;
+  
+}
+
+.footer-pic img{
+  margin-bottom: 16px;
+  float: right;
+}
+
+.footer {
+    background: #0d304c;
+    padding: 10px 0;
+  margin-top: -16px;
+}
+.footer-text p{
+  margin-top: 350px;
+  margin-left: 120px;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: #0d304c;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  background: white;
+}
+
+
+
+
+@media screen and (max-width:377px){
+
+  .action{
+    padding: 0px;
+    font-size: 25px;
+  }
+
+  .container-fluid .navbar-brand{
+  font-size: 20px !important;
+  border: 1px solid #335C7D;
+  color: #335C7D !important;
+  background: white !important;
+  border-radius: 17px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+    position: absolute;
+    left: 200px;
+    
+}
+.container-fluid .navbar-brand:hover{
+  color: white !important;
+  background: #335C7D !important;
+  border: 1px solid white;
+  
+}
+
+  header ul li{
+    padding-top: 10px;
+  }
+
+
+  header a{
+    position: absolute;
+  }
+  
+ 
+  
+ 
+  .red-background {
+    height: 300px;
+    width: 355px !important;
+    transition: none;
+    margin-left: -15px;
+
+  }
+  
+
+
+  
+  .red-background img{
+    width: 130px;
+    height: 100px;
+    display: none;
+    
+
+}
+
+
+   .blue-background {
+    height: 360px !important;
+    width: 360px !important;
+    transition: none;
+     margin-left: -16px;
+
+  }
+  
+  .blue-background img{
+display: none;
+}
+  
+  .red-blue p{
+    font-size: 15px;
+  }
+  .red-blue ul li{
+    font-size: 15px;
+  }
+  
+  .yellow-background img{
+    display: none;
+  }
+  
+  .yellow-background {
+    height: 300px ;
+    width: 330px !important;
+    transition: none;
+    padding-left: 10px;
+
+  }
+  
+  .price-plan{
+    margin-left: -45px;
+  }
+  
+  .level{
+    margin-bottom: 30px;
+  }
+  
+  .injur{
+    margin-top: 110px;
+    width: 350px;
+  }
+  
+  .right{
+    display: none;
+  }
+  .paw-shake{
+    display: none;
+    
+  }
+  
+  .footer-text{
+    display: none;
+  }
+  
+  .footer-pic img{
+    width: 300px;
+    height: 270px;
+  }
+  
+}
+@media screen and (max-width:767px){ 
+  .main-butt a{
+    color: white !important;
+    background: #335C7D;
+  }
+  
+  .red-background{
+    height: 320px;
+    width: 710px;
+  }
+  
+  .red-background:hover{
+    width: 710px;
+  }
+  .red-background img{
+    width: 270px;
+  }
+  
+  .yellow-background img{
+   width: 270px;
+  }
+  .yellow-background{
+    height: 320px;
+    width: 710px;
+  }
+  
+  .yellow-background:hover{
+    width: 710px;
+  }
+  
+  .blue-background{
+    height: 320px;
+    width: 710px;
+  }
+  .blue-background img{
+    width:275px;
+    height: 320px;
+  }
+  
+  .blue-background:hover{
+    width: 710px;
+  }
+  
+  .red-blue h2{
+    font-size: 20px;
+  }
+  
+  .red-blue ul li{
+    font-size: 18px;
+  }
+  
+  .red-blue p{
+    font-size: 15px;
+  }
+
+  .navbar-right a{
+    color: #335C7D !important;
+  }
+  
+  .price-plan{
+    padding: 50px;
+    margin-bottom: 450px;
+  }
+  
+  .level{
+    margin-bottom: 20px;
+  }
+  
+
+}
